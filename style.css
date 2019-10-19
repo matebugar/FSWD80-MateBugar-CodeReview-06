@@ -1,0 +1,103 @@
+*{
+font-family: 'Playfair Display', serif;
+}
+
+#background {
+background:url('img/headerlogo.jpg') no-repeat center center ;
+background-size:cover;
+width:100%;
+padding-top:18%;
+padding-bottom:18%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+	padding-bottom: 60px;
+}
+
+.navbar {
+      padding-top: 20px;
+}
+
+#all > ul { 
+	    	list-style: none;
+	    	float: left; width: 200px; 
+	    	padding: 0 10px 0 0; 
+	    }
+
+#all a { 
+			text-decoration: none; 
+			display: block; 
+			margin: 0 0 5px 0; 
+			color: black;
+			-webkit-transition: all 0.2s ease;
+			-moz-transition: all 0.2s ease;
+			-o-transition: all 0.2s ease;
+	    }
+
+#all:hover a {
+			opacity: 0.2;
+	    }
+
+#all:hover ul:hover a {
+			opacity: 0.5; 
+	    }
+
+#all:hover ul:hover a:hover {
+			opacity: 1;
+	    }
+
+.dropdown-menu a {
+	color: black !important;
+	opacity: 1 !important;
+}	    
+
+#img {
+	width: 100%;
+	height: 240px;
+	border-radius: 12px;
+}
+
+.card {
+	text-align: center;	
+	border: none;
+}
+
+.card-footer {
+	background-color: white;
+	border-bottom: 1px solid lightgrey;
+}
+
+.rowTitle {
+	font-size: 34px;
+	font-family: 'Abril Fatface', cursive;
+}
+.card-title {
+	font-family: 'Abril Fatface', cursive;
+}
+
+.fa-euro-sign {
+	font-size: 20px;
+}
+
+.ticket {
+	font-size: 20px;
+}
+
+hr {
+	height: 6px;
+	width: 380px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+		}
+
+footer {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+#img{
+	display: none;
+}
+}
